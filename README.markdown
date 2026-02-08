@@ -160,12 +160,33 @@ python manage.py runserver --insecure
 - Real-world rural planning use case
 
 
-<h2 align="center">Project Architecture</h2>
+<h3 align="center">Village Demographic Data Entry Form</h3>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/iprashanthvanam/rural_dev_model_final/main/scripts/Screenshot%20from%202026-02-08%2012-52-52.png" width="45%" />
-  <img src="https://raw.githubusercontent.com/iprashanthvanam/rural_dev_model_final/main/scripts/Screenshot%20from%202026-02-08%2012-52-52.png" width="45%" />
+ <img src="https://raw.githubusercontent.com/iprashanthvanam/rural_dev_model_final/main/images/Picture1.png" width="45%" />
+<img src="https://raw.githubusercontent.com/iprashanthvanam/rural_dev_model_final/main/images/Picture2.png" width="45%" />
+    <img src="https://raw.githubusercontent.com/iprashanthvanam/rural_dev_model_final/main/images/Picture3.png" width="45%" />
 </p>
+<h3 align="center">Village Development Map</h3>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/iprashanthvanam/rural_dev_model_final/main/images/Picture4.png" width="45%" />
+</p>
+<h3 align="center">Village Development Report – Overview</h3>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/iprashanthvanam/rural_dev_model_final/main/images/Picture5.png" width="45%" />
+ <img src="https://raw.githubusercontent.com/iprashanthvanam/rural_dev_model_final/main/images/Picture6.png" width="45%" />
+</p>
+<h3 align="center">Village Development Report – Analysis & Recommendations</h3>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/iprashanthvanam/rural_dev_model_final/main/images/Picture7.png" width="45%" />
+ <img src="https://raw.githubusercontent.com/iprashanthvanam/rural_dev_model_final/main/images/Picture8.png" width="45%" />
+</p>
+
+
+
 
 
 
