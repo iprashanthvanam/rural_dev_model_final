@@ -159,30 +159,29 @@ python manage.py runserver --insecure
 - Clean, modular architecture
 - Real-world rural planning use case
 
-
 <h3 align="center">Village Demographic Data Entry Form</h3>
 
 <p align="center">
- <img src="https://raw.githubusercontent.com/iprashanthvanam/rural_dev_model_final/main/images/Picture1.png" width="45%" />
-<img src="https://raw.githubusercontent.com/iprashanthvanam/rural_dev_model_final/main/images/Picture2.png" width="45%" />
-    <img src="https://raw.githubusercontent.com/iprashanthvanam/rural_dev_model_final/main/images/Picture3.png" width="45%" />
+  <img src="https://raw.githubusercontent.com/iprashanthvanam/rural_dev_web/main/images/Picture1.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/iprashanthvanam/rural_dev_web/main/images/Picture2.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/iprashanthvanam/rural_dev_web/main/images/Picture3.png" width="30%" />
 </p>
 <h3 align="center">Village Development Map</h3>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/iprashanthvanam/rural_dev_model_final/main/images/Picture4.png" width="45%" />
+  <img src="https://raw.githubusercontent.com/iprashanthvanam/rural_dev_web/main/images/Picture4.png" width="70%" />
 </p>
 <h3 align="center">Village Development Report – Overview</h3>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/iprashanthvanam/rural_dev_model_final/main/images/Picture5.png" width="45%" />
- <img src="https://raw.githubusercontent.com/iprashanthvanam/rural_dev_model_final/main/images/Picture6.png" width="45%" />
+  <img src="https://raw.githubusercontent.com/iprashanthvanam/rural_dev_web/main/images/Picture5.png" width="45%" />
+  <img src="https://raw.githubusercontent.com/iprashanthvanam/rural_dev_web/main/images/Picture6.png" width="45%" />
 </p>
 <h3 align="center">Village Development Report – Analysis & Recommendations</h3>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/iprashanthvanam/rural_dev_model_final/main/images/Picture7.png" width="45%" />
- <img src="https://raw.githubusercontent.com/iprashanthvanam/rural_dev_model_final/main/images/Picture8.png" width="45%" />
+  <img src="https://raw.githubusercontent.com/iprashanthvanam/rural_dev_web/main/images/Picture7.png" width="45%" />
+  <img src="https://raw.githubusercontent.com/iprashanthvanam/rural_dev_web/main/images/Picture8.png" width="45%" />
 </p>
 
 
