@@ -160,6 +160,7 @@ python manage.py runserver --insecure
 - Real-world rural planning use case
 
 
+![Project Architecture](https://github.com/iprashanthvanam/rural_dev_model_final/blob/main/scripts/Screenshot%20from%202026-02-08%2012-52-52.png)
 
 
 
