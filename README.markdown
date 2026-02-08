@@ -1,13 +1,8 @@
-# Village Development Project
+## Rural Development Model
 
-**Full Project Documentation & README**  
-**Last updated:** May 2025  
-**Author:** Prashanth  
-**Location:** Hyderabad, Telangana, India  
 
----
 
-## Project Overview
+### Project Overview
 
 Village Development is a Django-based web application created to assist rural planning and development. It allows users to:
 
@@ -16,18 +11,9 @@ Village Development is a Django-based web application created to assist rural pl
 - Produce rule-based AI recommendations for improvement
 - Create visual 2D maps highlighting existing + recommended infrastructure
 - Generate professionally formatted multi-page PDF reports
-
-The project demonstrates a full-stack rural development planning tool using:
-
-- **Django** (web framework)
-- **PostgreSQL + PostGIS** (spatial database)
-- **GeoPandas + Matplotlib** (static map generation)
-- **ReportLab** (PDF generation)
-- **Rule-based recommendation engine**
-
 ---
 
-## Features
+### Features
 
 - **Data Entry:** Web form for entering comprehensive village data (demographic, infrastructure, geographic, administrative).
 - **Analytics:** Real-time calculation of key development metrics.
@@ -38,7 +24,7 @@ The project demonstrates a full-stack rural development planning tool using:
 
 ---
 
-## Tech Stack
+### Tech Stack
 
 | Layer | Technology | Purpose |
 |------|------------|---------|
@@ -53,59 +39,62 @@ The project demonstrates a full-stack rural development planning tool using:
 ---
 
 
----
+### Installation & Setup (Step-by-step)
 
-## Installation & Setup (Step-by-step)
-
-### 1. Prerequisites
+#### Prerequisites
 
 - Python ≥ 3.11 (recommended: 3.13)
 - PostgreSQL 15+ with PostGIS extension
 - Git (optional)
 - Virtual environment tool (venv / virtualenv / conda)
 
----
 
-### 2. Clone & Enter Project
+#### Clone & Enter Project
 
 ```bash
-git clone <your-repo-url>
+git clone [<your-repo-url>](https://github.com/iprashanthvanam/rural_dev_web.git
 cd rural-dev-web/backend
+```
 
-For windows:
+For windows
+```
 python -m venv venv
 venv\Scripts\activate
+```
 
 For Linux/Mac
+```
 python3 -m venv venv
 source venv/bin/activate
+```
 
----
 
-### 3. Install Dependencies
-
+#### Install Dependencies
+```
 pip install --upgrade pip
 pip install django==5.2 psycopg2-binary geopandas matplotlib reportlab django-geo shapely
 Simply : pip install -r requirements.txt
+```
 
----
 
-### 4. Windows (GeoPandas issues – Conda recommended)
 
+#### Windows (GeoPandas issues – Conda recommended)
+```
 conda create -n rural-dev python=3.11
 conda activate rural-dev
 conda install -c conda-forge geopandas
 pip install django psycopg2-binary matplotlib reportlab django-geo shapely
+```
 
----
 
-### 5. Database Setup
-
+#### Database Setup
+```
 createdb -U postgres village_web_db
 psql -U postgres -d village_web_db -c "CREATE EXTENSION postgis;"
+```
 
 Update rural_dev/settings.py:
-
+```
 DATABASES = {
     'default': {
         'ENGINE': 'django.contrib.gis.db.backends.postgis',
@@ -116,34 +105,59 @@ DATABASES = {
         'PORT': '5432',
     }
 }
+```
 
 
----
 
-### 6. Apply Migrations
-
+#### Apply Migrations
+```
 python manage.py makemigrations
 python manage.py migrate
+```
 
 
----
 
-### 7. GeoJSON File Configuration
+#### GeoJSON File Configuration
 
 Place your village GeoJSON file at:
-C:\Users\<your-username>\Downloads\filtered_output.geojson
 
-OR update the path inside:
-village_app/utils/gis.py
+- C:\Users\<your-username>\Downloads\filtered_output.geojson
 
+- OR update the path inside:
+
+- village_app/utils/gis.py
+
+
+
+#### Run Development Server
+```
+python manage.py runserver --insecure
+```
+### Open browser:
+```
+👉 http://127.0.0.1:8000
+```
 ---
 
-### 8. Run Development Server
+### Application Workflow
 
-python manage.py runserver --insecure
-Open browser:
-👉 http://127.0.0.1:8000/
+- User enters village data
+- Backend validates & stores information
+- Analytics engine computes metrics
+- Rule-based logic generates recommendations
+- GIS module creates annotated village map
+- ReportLab generates multi-page PDF
+- User downloads final development report
+---
 
+### Project Highlights
+
+- Full-stack Django application
+- GIS-enabled spatial processing
+- Automated analytics & reporting
+- Production-grade PDF output
+- Clean, modular architecture
+- Real-world rural planning use case
 
 
 
